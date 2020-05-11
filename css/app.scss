@@ -9,6 +9,57 @@ html, body {
     margin: 0;
     overflow-x: hidden;
 }
+
+.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+    background: linear-gradient(to bottom, #1e90ff 0%, #1e90ff 100%);
+    // background-image: url(../img/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+    .happy {
+        width: 482px;
+        margin: 92px 0 0 64px;
+    }
+
+    .c_wrapper {
+        margin: 96px 0 0 0;
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+            padding: 18px 0;
+        }
+
+        .m_par {
+            color: #ffffff;
+            font-size: 24px;
+            // margin: 0 0 0 111px;
+        }
+
+        .m_d {
+            background-color: #fff;
+            border-radius: 31px;
+            // box-shadow: 0 7px 19px #17f0d5;
+            display: block;
+            width: 179px;
+            padding: 23px;
+            font-size: 20px;
+            font-weight: 700;
+            margin: 54px 0 0 0;
+            color: #1e90ff;
+        }
+
+        
+    }
+
+}
+
 .s_logo {
     position: absolute;
     top: 0;
@@ -81,9 +132,17 @@ html, body {
     //     padding-left: 10px;
     // }
 }
+
+.block-2 {
+    background: url("../img/usingComputer.jpg") no-repeat fixed;
+    background-size: cover;
+    height: 825px;
+    background-position: center;
+  }
 #section {
-    margin-top: 129px;
-    margin-left: 147px;
+    margin-top: 136px;
+    margin-left: 154px;
+
     .m_header {
         height: 650px;
         position: relative;
@@ -161,6 +220,9 @@ html, body {
             transform: translateY(50px)
           }
     }
+      
+
+    
 }
 
 .d_info {
@@ -200,14 +262,19 @@ html, body {
     height: 584%;
     display: none;
 }
-
+// .bg_fix {
+//     background-color: red;
+//     padding: 10px;
+//     position: fixed;
+// }
 .f_main {
     clip-path: polygon(0 5%, 100% 0, 100% 84%, 0 100%);
     position: relative;
+    margin-top: -33px;
 
     .fucos {
         // padding-top: 80px;
-        background: #17f0d5;
+        background: #1e90ff;
         // clip-path: polygon(0 5%, 100% 0, 100% 84%, 0 100%);
         width: 100%;
         height: 705px;
@@ -266,7 +333,7 @@ html, body {
     padding-bottom: 50px;
 
     .divider {
-        background: #17f0d5;
+        background: #1e90ff;
         height: 4px;
         border-radius: 2px;
         width: 8%;
@@ -294,7 +361,7 @@ html, body {
         }
 
        .divider {
-            background: #17f0d5;
+            background: #1e90ff;
             height: 4px;
             border-radius: 2px;
             width: 8%;
@@ -303,13 +370,13 @@ html, body {
        .f_d {
             background-color: #fff;
             border-radius: 31px;
-            box-shadow: 0 1px 11px #17f0d5;
+            box-shadow: 0 1px 11px #1e90ff;
             // display: block;
             width: 192px;
             padding: 20px;
             font-size: 17px;
             font-weight: 700;
-            color: #17f0d5;
+            color: #1e90ff;
             position: relative;
             top: 30px;
             
@@ -325,7 +392,7 @@ html, body {
 }
 
 footer {
-    background: #17f0d5;
+    background: #1e90ff;
     height: 254px;
 
     .f_logoWrapper {
