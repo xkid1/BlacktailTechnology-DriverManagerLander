@@ -42,18 +42,30 @@ html, body {
 .masthead .c_wrapper .m_par {
   color: #ffffff;
   font-size: 24px;
+  margin-bottom: 50px;
 }
 
 .masthead .c_wrapper .m_d {
   background-color: #fff;
   border-radius: 31px;
   display: block;
-  width: 179px;
+  width: 199px;
   padding: 23px;
   font-size: 20px;
   font-weight: 700;
   margin: 54px 0 0 0;
   color: #1e90ff;
+  margin: 0 auto;
+}
+
+.masthead .c_wrapper .ag {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 27px;
+  text-align: center;
 }
 
 .s_logo {
@@ -388,7 +400,12 @@ html, body {
 }
 
 .final_scan .f_wrapper .r_rn {
-  padding-top: 91px;
+  padding-top: 36px;
+}
+
+.final_scan .f_wrapper p.bc {
+  margin: 69px 0 0 0;
+  font-size: 12px;
 }
 
 footer {
@@ -409,7 +426,7 @@ footer .f_th {
 }
 
 footer .fo_wrapper {
-  padding: 71px 0 0 51px;
+  padding: 71px 0 0 0;
 }
 
 footer .list-unstyled {
@@ -424,8 +441,8 @@ footer .list-unstyled a {
 
 footer .f_infos {
   color: #fff;
-  font-size: 19px;
-  font-weight: 500;
+  font-size: 12px;
+  /* font-weight: 500; */
   text-align: center;
 }
 /*# sourceMappingURL=app.css.map */

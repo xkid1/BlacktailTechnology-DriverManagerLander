@@ -39,7 +39,7 @@ html, body {
         .m_par {
             color: #ffffff;
             font-size: 24px;
-            // margin: 0 0 0 111px;
+            margin-bottom: 50px;
         }
 
         .m_d {
@@ -47,12 +47,22 @@ html, body {
             border-radius: 31px;
             // box-shadow: 0 7px 19px #17f0d5;
             display: block;
-            width: 179px;
+            width: 199px;
             padding: 23px;
             font-size: 20px;
             font-weight: 700;
             margin: 54px 0 0 0;
             color: #1e90ff;
+            margin: 0 auto;
+        }
+        .ag {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 10px;
+            color: #fff;
+            font-weight: 600;
+            margin-top: 27px;
+            text-align: center;
         }
 
         
@@ -386,8 +396,13 @@ html, body {
        }
 
        .r_rn {
-        padding-top: 91px;
+        padding-top: 36px;
         }
+        p.bc {
+            margin: 69px 0 0 0;
+            font-size: 12px;
+        }
+
     }
 }
 
@@ -408,7 +423,7 @@ footer {
     }
 
     .fo_wrapper {
-        padding: 71px 0 0 51px; 
+        padding: 71px 0 0 0;
     }
 
     .list-unstyled {
@@ -421,8 +436,8 @@ footer {
     }
     .f_infos {
         color: #fff;
-        font-size: 19px;
-        font-weight: 500;
+        font-size: 12px;
+        /* font-weight: 500; */
         text-align: center;
     }
 }
